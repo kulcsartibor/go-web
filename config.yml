@@ -1,0 +1,11 @@
+server:
+  bindAddress: "127.0.0.1"
+  apiExposeUrl: "127.0.0.1"
+  apiExposePort: "8091"
+  port: 8091
+  readTimeout: 15
+  writeTimeout: 15
+  documentManagementService: true
+
+ora:
+  connectionUri: "http://10.105.121.130:8091"
